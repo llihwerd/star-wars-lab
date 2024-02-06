@@ -10,8 +10,12 @@ function App() {
 
   return (
     <main>
+      <Nav />
       <Routes>
-        <Route path='/ships' element={<Ships />}/>
+        <Route path='/ships' element={
+          <Ships 
+          />
+          }/>
       </Routes>
     </main>
   )

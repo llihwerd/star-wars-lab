@@ -1,6 +1,10 @@
-const ShipCard = () => {
+import './ShipCard.css'
+
+const ShipCard = (props) => {
   return ( 
-    <h2>Here's a Ship Card</h2>
+    <section className="each-card">
+      {props.ship.name}
+    </section>
   )
 }
 
