@@ -1,7 +1,14 @@
-const ShipDetails = () => {
+import './ShipDetail.css'
+
+const ShipDetails = (props) => {
+
+  console.log(props)
   return ( 
-    <h2> Ship Details </h2>
-  )
+    <div>
+      <h1> Details</h1>
+      <h3></h3>
+    </div>
+  );
 }
 
 export default ShipDetails
