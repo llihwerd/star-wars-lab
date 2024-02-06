@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Ship from './components/Ships/Ships'
+import Ships from './components/Ships/Ships'
+import { Route, Routes } from 'react-router-dom'
 
 
 function App() {
