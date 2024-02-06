@@ -6,8 +6,9 @@ import Ship from './components/Ships/Ships'
 function App() {
 
   return (
-
-
+    <main>
+      <Ship />
+    </main>
   )
 }
 
