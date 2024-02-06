@@ -16,6 +16,10 @@ function App() {
           <Ships 
           />
           }/>
+          <Route
+            path="/shipdetails/:shipId"
+            element={<ShipDetails />}
+          />
       </Routes>
     </main>
   )

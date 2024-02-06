@@ -1,4 +1,4 @@
-const BASE_URL = 'https://swapi.dev/api/starships'
+const baseUrl = 'https://swapi.dev/api/starships'
 
 async function getAllStarships() {
   try {
